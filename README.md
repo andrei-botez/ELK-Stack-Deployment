@@ -19,7 +19,7 @@ Files to configure Filebeat and Metricbeat
   - Ansible/metricbeat-config.yml
 
 This document contains the following details:
-  - Description of the Topologu
+  - Description of the Topology
   - Access Policies
   - ELK Configuration
   - Beats in Use
