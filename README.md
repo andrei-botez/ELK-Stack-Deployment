@@ -45,7 +45,7 @@ Access Policies
 The machines on the internal network are not exposed to the public Internet.
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 173.32.145.0/24 (personal IP hidden)
 
-Machines within the network can only be accessed from the JumpBox Ansible container via SSH (port 22) using public key authentification.
+Machines within the network can only be accessed from the JumpBox Ansible container via SSH (port 22) using public key authentication.
 
 A summary of the access policies in place can be found in the table below.
 
