@@ -27,7 +27,7 @@ This document contains the following details:
   - How to Use the Ansible Build
   - Description of the Topology
 
->*NOTE: The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D@mn Vulnerable Web Application. Load balancing ensures that the application will be highly available, in addition to restricting Distributed Denial of Service (DDoS) attacks to the server.*
+>*NOTE: The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D@mn Vulnerable Web Application. Load balancing ensures that the application will be highly available, in addition to preventing Distributed Denial of Service (DDoS) attacks to the server.*
 
 
 ## Advantages of using a Load Balancer and a JumpBox VM to manage the web servers:
