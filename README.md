@@ -107,7 +107,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - Update the hosts file to include the following:
     
   >*NOTE: you need to modify the hosts file (/etc/ansible/hosts) in order to specify the IP address of the target machine; the second piece is in the ansible .yml configuration playbooks which specifies the hosts (e.g. "hosts: ELKServer" or "hosts: webservers")*
-    ```
+    ```bash
     nano /etc/ansible/hosts
     ```
 - Add the following to the hosts file and save:
@@ -122,7 +122,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
   ```
 
 - Download and run the playbook to deploy ELK, then navigate to http://localhost:9200/_status to check that the installation worked as expected and server is running:
-  ```
+  ```bash
   curl -o /etc/ansible/playbook-elk.yml https://raw.githubusercontent.com/andrei-botez/cybersecurity/main/Ansible/playbook-elk.yml
   ansible-playbook /etc/ansible/playbook-elk.yml
   ```
