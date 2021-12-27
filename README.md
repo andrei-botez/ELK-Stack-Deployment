@@ -30,7 +30,7 @@ This document contains the following details:
 >*NOTE: The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D@mn Vulnerable Web Application. Load balancing ensures that the application will be highly available, in addition to preventing Distributed Denial of Service (DDoS) attacks to the server.*
 
 
-## Advantages of using a Load Balancer and a JumpBox VM to manage the web servers:
+## Advantages of using a Load Balancer and a JumpBox VM to manage the web servers
 - A load balancer takes care of the network traffic during peak times. The advantage of having a load balancer is that during busy times the load can be evenly distributed among multiple machines resulting in faster server response and increased availability (in case one or more of the machines goes down/offline). Having a JumpBox makes managing multiple machines easy and efficient as you can configure all web servers at once. The other advantage is by having a JumpBox on the same network as the webservers, you are not exposing them directly to the internet via SSH, increasing security.
 Also, integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the operating system and system network.
 
@@ -88,7 +88,7 @@ The following screenshot displays the result of running docker ps after successf
 ![alt text](https://github.com/andrei-botez/cybersecurity/blob/main/Images/docker_ps_output.png "Docker output")
 
 
-## Target Machines & Beats:
+## Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
 - Web 1 (10.1.0.5)
