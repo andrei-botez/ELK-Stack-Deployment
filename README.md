@@ -132,7 +132,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
     curl -o /etc/ansible/filebeat-config.yml https://raw.githubusercontent.com/andrei-botez/cybersecurity/main/Ansible/filebeat-config.yml
     curl -o /etc/ansible/metricbeat-config.yml https://raw.githubusercontent.com/andrei-botez/cybersecurity/main/Ansible/metricbeat-config.yml
       
-     nsible-playbook /etc/ansible/filebeat-config.yml
+    ansible-playbook /etc/ansible/filebeat-config.yml
     ansible-playbook /etc/ansible/metricbeat-config.yml
     ```
   - Check http://40.122.193.196:5601/app/kibana#/home?_g=() to see if Kibana was successfully installed (change it to your own ELK VM IP address)
